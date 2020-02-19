@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack -p",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JuliaAvsyuk/Example1.git"
   },
-  "author": "JuliaAvsyuk",
+  "author": "JAV",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JuliaAvsyuk/Example1/issues"
